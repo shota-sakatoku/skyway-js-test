@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>js test</title>
+    <script src="https://cdn.webrtc.ecl.ntt.com/skyway-4.4.1.js"></script>
+</head>
+<body>
+    <p>Peer ID: <span id="peer-id">{{answer_peer_id}}</span></p>
+    <p>Target Peer ID: <span id="target-id">{{call_peer_id}}</span></p>
+    <p>{{call_peer_id}} から {{answer_peer_id}} に着信があると応答ボタンが現れます</p>
+    <audio id="their-audio"></audio>
+    <script type="text/javascript">
+        const myPeerId = "{{answer_peer_id}}";
+        const targetPeerId = "{{call_peer_id}}";
+        const token = "{{token}}";
+    </script>
+    <script src="/src/answer.js"></script>
+</body>
+</html>
