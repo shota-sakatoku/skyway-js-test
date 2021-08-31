@@ -1,7 +1,7 @@
 # skyway-js-test
 ## setting
 - Save your key as json file. The format can be found in conf.py.
-- Det environment variable.
+- Set environment variable.
 ```
 export EXT_API_CREDENTIALS=YOUR_PATH_TO_THE_JSON_FILE
 ```
