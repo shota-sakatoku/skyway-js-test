@@ -1,7 +1,7 @@
 let localStream;
 const audioElm = document.getElementById('their-audio');
 const body = document.getElementsByTagName('body')[0];
-const callButton = document.getElementById('callButton');
+const callButton = document.getElementById('call');
 
 const peer = new Peer(myPeerId, {
     key: token,
