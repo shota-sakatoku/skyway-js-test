@@ -19,7 +19,7 @@ navigator.mediaDevices.getUserMedia({video: false, audio: true})
 
 callButton.addEventListener("click", () => {
     const mediaConnection = peer.call(
-        theirID, 
+        targetPeerId, 
         localStream,
         {
             audioCodec: "opus",
